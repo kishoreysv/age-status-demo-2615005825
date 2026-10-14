@@ -1,0 +1,1939 @@
+{
+  "nodes": [
+    {
+      "id": "e2e_age_spec",
+      "label": "age.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/e2e/age.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "e2e_age_spec_browserevidence",
+      "label": "BrowserEvidence",
+      "file_type": "code",
+      "source_file": "frontend/e2e/age.spec.ts",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "e2e_age_spec_evidence",
+      "label": "evidence",
+      "file_type": "code",
+      "source_file": "frontend/e2e/age.spec.ts",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "e2e_age_spec_enterageview",
+      "label": "enterAgeView()",
+      "file_type": "code",
+      "source_file": "frontend/e2e/age.spec.ts",
+      "source_location": "L68",
+      "_origin": "ast"
+    },
+    {
+      "id": "e2e_age_spec_capturestate",
+      "label": "captureState()",
+      "file_type": "code",
+      "source_file": "frontend/e2e/age.spec.ts",
+      "source_location": "L92",
+      "_origin": "ast"
+    },
+    {
+      "id": "e2e_login_spec",
+      "label": "login.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/e2e/login.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 5
+    },
+    {
+      "id": "e2e_login_spec_browserevidence",
+      "label": "BrowserEvidence",
+      "file_type": "code",
+      "source_file": "frontend/e2e/login.spec.ts",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 5
+    },
+    {
+      "id": "e2e_login_spec_evidence",
+      "label": "evidence",
+      "file_type": "code",
+      "source_file": "frontend/e2e/login.spec.ts",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 5
+    },
+    {
+      "id": "e2e_login_spec_login",
+      "label": "login()",
+      "file_type": "code",
+      "source_file": "frontend/e2e/login.spec.ts",
+      "source_location": "L56",
+      "_origin": "ast",
+      "community": 5
+    },
+    {
+      "id": "e2e_login_spec_expectgate",
+      "label": "expectGate()",
+      "file_type": "code",
+      "source_file": "frontend/e2e/login.spec.ts",
+      "source_location": "L63",
+      "_origin": "ast",
+      "community": 5
+    },
+    {
+      "id": "e2e_login_spec_capturestate",
+      "label": "captureState()",
+      "file_type": "code",
+      "source_file": "frontend/e2e/login.spec.ts",
+      "source_location": "L79",
+      "_origin": "ast",
+      "community": 5
+    },
+    {
+      "id": "frontend_package",
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 4
+    },
+    {
+      "id": "frontend_package_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 4
+    },
+    {
+      "id": "frontend_package_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 4
+    },
+    {
+      "id": "frontend_package_private",
+      "label": "private",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 4
+    },
+    {
+      "id": "frontend_package_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 4
+    },
+    {
+      "id": "frontend_package_engines",
+      "label": "engines",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 4
+    },
+    {
+      "id": "frontend_package_engines_node",
+      "label": "node",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 4
+    },
+    {
+      "id": "frontend_package_scripts",
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "frontend_package_scripts_dev",
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "frontend_package_scripts_typecheck",
+      "label": "typecheck",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "frontend_package_scripts_build",
+      "label": "build",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "frontend_package_scripts_preview",
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "frontend_package_scripts_test",
+      "label": "test",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "frontend_package_scripts_test_watch",
+      "label": "test:watch",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "frontend_package_scripts_test_coverage",
+      "label": "test:coverage",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "frontend_package_scripts_test_e2e",
+      "label": "test:e2e",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "frontend_package_scripts_test_e2e_ui",
+      "label": "test:e2e:ui",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "frontend_package_scripts_test_e2e_install",
+      "label": "test:e2e:install",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "community": 2
+    },
+    {
+      "id": "frontend_package_dependencies",
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 4
+    },
+    {
+      "id": "frontend_package_dependencies_react",
+      "label": "react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "community": 4
+    },
+    {
+      "id": "frontend_package_dependencies_react_dom",
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "community": 4
+    },
+    {
+      "id": "frontend_package_devdependencies",
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_playwright_test",
+      "label": "@playwright/test",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_testing_library_dom",
+      "label": "@testing-library/dom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_testing_library_jest_dom",
+      "label": "@testing-library/jest-dom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_testing_library_react",
+      "label": "@testing-library/react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_testing_library_user_event",
+      "label": "@testing-library/user-event",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L28",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_types_node",
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L29",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_types_react",
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L30",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_types_react_dom",
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L31",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L32",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_vitest_coverage_v8",
+      "label": "@vitest/coverage-v8",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L33",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_jsdom",
+      "label": "jsdom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L34",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_typescript",
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L35",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_vite",
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L36",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_package_devdependencies_vitest",
+      "label": "vitest",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L37",
+      "_origin": "ast",
+      "community": 1
+    },
+    {
+      "id": "frontend_playwright_config",
+      "label": "playwright.config.ts",
+      "file_type": "code",
+      "source_file": "frontend/playwright.config.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6
+    },
+    {
+      "id": "frontend_playwright_config_frontenddirectory",
+      "label": "frontendDirectory",
+      "file_type": "code",
+      "source_file": "frontend/playwright.config.ts",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 6
+    },
+    {
+      "id": "frontend_playwright_config_env",
+      "label": "env",
+      "file_type": "code",
+      "source_file": "frontend/playwright.config.ts",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 6
+    },
+    {
+      "id": "frontend_playwright_config_previewurl",
+      "label": "previewURL",
+      "file_type": "code",
+      "source_file": "frontend/playwright.config.ts",
+      "source_location": "L10",
+      "_origin": "ast",
+      "community": 6
+    },
+    {
+      "id": "frontend_playwright_config_port",
+      "label": "port",
+      "file_type": "code",
+      "source_file": "frontend/playwright.config.ts",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 6
+    },
+    {
+      "id": "src_app_test",
+      "label": "App.test.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/App.test.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 3
+    },
+    {
+      "id": "src_app_test_expectlogingate",
+      "label": "expectLoginGate()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.test.tsx",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 3
+    },
+    {
+      "id": "src_app",
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 3
+    },
+    {
+      "id": "src_app_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 3
+    },
+    {
+      "id": "age_ageform_test",
+      "label": "AgeForm.test.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/age/AgeForm.test.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "age_ageform",
+      "label": "AgeForm.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/age/AgeForm.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "age_ageform_ageform",
+      "label": "AgeForm()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/age/AgeForm.tsx",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "age_ageresult_test",
+      "label": "AgeResult.test.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/age/AgeResult.test.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "age_ageresult",
+      "label": "AgeResult.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/age/AgeResult.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "age_ageresult_ageresultprops",
+      "label": "AgeResultProps",
+      "file_type": "code",
+      "source_file": "frontend/src/features/age/AgeResult.tsx",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "age_ageresult_ageresult",
+      "label": "AgeResult()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/age/AgeResult.tsx",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "age_classifyage_test",
+      "label": "classifyAge.test.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/features/age/classifyAge.test.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "age_classifyage",
+      "label": "classifyAge.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/features/age/classifyAge.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "age_classifyage_ageclassification",
+      "label": "AgeClassification",
+      "file_type": "code",
+      "source_file": "frontend/src/features/age/classifyAge.ts",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "age_classifyage_agecheck",
+      "label": "AgeCheck",
+      "file_type": "code",
+      "source_file": "frontend/src/features/age/classifyAge.ts",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "age_classifyage_classifyage",
+      "label": "classifyAge()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/age/classifyAge.ts",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "login_credentials_test",
+      "label": "credentials.test.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/features/login/credentials.test.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "login_credentials",
+      "label": "credentials.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/features/login/credentials.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "login_credentials_credentialerrors",
+      "label": "CredentialErrors",
+      "file_type": "code",
+      "source_file": "frontend/src/features/login/credentials.ts",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "login_credentials_credentialresult",
+      "label": "CredentialResult",
+      "file_type": "code",
+      "source_file": "frontend/src/features/login/credentials.ts",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "login_credentials_validatecredentials",
+      "label": "validateCredentials()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/login/credentials.ts",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "login_loginform_test",
+      "label": "LoginForm.test.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/login/LoginForm.test.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 3
+    },
+    {
+      "id": "login_loginform_test_entercredentials",
+      "label": "enterCredentials()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/login/LoginForm.test.tsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 3
+    },
+    {
+      "id": "login_loginform",
+      "label": "LoginForm.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/login/LoginForm.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 3
+    },
+    {
+      "id": "login_loginform_loginformprops",
+      "label": "LoginFormProps",
+      "file_type": "code",
+      "source_file": "frontend/src/features/login/LoginForm.tsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 3
+    },
+    {
+      "id": "login_loginform_loginform",
+      "label": "LoginForm()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/login/LoginForm.tsx",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 3
+    },
+    {
+      "id": "src_main",
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/main.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 3
+    },
+    {
+      "id": "src_main_root",
+      "label": "root",
+      "file_type": "code",
+      "source_file": "frontend/src/main.tsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 3
+    },
+    {
+      "id": "test_setup",
+      "label": "setup.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/test/setup.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 11
+    },
+    {
+      "id": "src_vite_env_d",
+      "label": "vite-env.d.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/vite-env.d.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 10
+    },
+    {
+      "id": "frontend_tsconfig",
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_target",
+      "label": "target",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_lib",
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_module",
+      "label": "module",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_moduleresolution",
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_jsx",
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_strict",
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_skiplibcheck",
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_noemit",
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_forceconsistentcasinginfilenames",
+      "label": "forceConsistentCasingInFileNames",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_esmoduleinterop",
+      "label": "esModuleInterop",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_resolvejsonmodule",
+      "label": "resolveJsonModule",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_isolatedmodules",
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_nounusedlocals",
+      "label": "noUnusedLocals",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_nounusedparameters",
+      "label": "noUnusedParameters",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions_types",
+      "label": "types",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_tsconfig_include",
+      "label": "include",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "frontend_vite_config",
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "frontend/vite.config.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 8
+    },
+    {
+      "id": "frontend_vitest_config",
+      "label": "vitest.config.ts",
+      "file_type": "code",
+      "source_file": "frontend/vitest.config.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 9
+    }
+  ],
+  "links": [
+    {
+      "source": "e2e_age_spec",
+      "target": "e2e_age_spec_browserevidence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/age.spec.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "e2e_age_spec",
+      "target": "e2e_age_spec_evidence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/age.spec.ts",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "e2e_age_spec",
+      "target": "e2e_age_spec_enterageview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/age.spec.ts",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "e2e_age_spec",
+      "target": "e2e_age_spec_capturestate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/age.spec.ts",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "e2e_login_spec",
+      "target": "e2e_login_spec_browserevidence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/login.spec.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "e2e_login_spec",
+      "target": "e2e_login_spec_evidence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/login.spec.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "e2e_login_spec",
+      "target": "e2e_login_spec_login",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/login.spec.ts",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "e2e_login_spec",
+      "target": "e2e_login_spec_expectgate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/login.spec.ts",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "e2e_login_spec",
+      "target": "e2e_login_spec_capturestate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/login.spec.ts",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_private",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_engines",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_engines",
+      "target": "frontend_package_engines_node",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_dev",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_typecheck",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_build",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_preview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_test",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_test_watch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_test_coverage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_test_e2e",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_test_e2e_ui",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_test_e2e_install",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_devdependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_playwright_test",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_testing_library_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_testing_library_jest_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_testing_library_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_testing_library_user_event",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_node",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vitejs_plugin_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vitest_coverage_v8",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_jsdom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_typescript",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vitest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_playwright_config",
+      "target": "frontend_playwright_config_frontenddirectory",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/playwright.config.ts",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_playwright_config",
+      "target": "frontend_playwright_config_env",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/playwright.config.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_playwright_config",
+      "target": "frontend_playwright_config_previewurl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/playwright.config.ts",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_playwright_config",
+      "target": "frontend_playwright_config_port",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/playwright.config.ts",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_test",
+      "target": "src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.test.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_test",
+      "target": "src_app_test_expectlogingate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.test.tsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "login_loginform",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "login_loginform_loginform",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "age_ageform",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "age_ageform_ageform",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageform_test",
+      "target": "age_ageform",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeForm.test.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageform_test",
+      "target": "age_ageform_ageform",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeForm.test.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageform",
+      "target": "age_classifyage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeForm.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageform",
+      "target": "age_classifyage_classifyage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeForm.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageform",
+      "target": "age_classifyage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageform",
+      "target": "age_classifyage_ageclassification",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageform",
+      "target": "age_ageresult",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeForm.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageform",
+      "target": "age_ageresult_ageresult",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeForm.tsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageform",
+      "target": "age_ageform_ageform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeForm.tsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageresult_test",
+      "target": "age_ageresult",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeResult.test.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageresult_test",
+      "target": "age_ageresult_ageresult",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeResult.test.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageresult_test",
+      "target": "age_classifyage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeResult.test.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageresult_test",
+      "target": "age_classifyage_ageclassification",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeResult.test.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageresult",
+      "target": "age_classifyage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeResult.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageresult",
+      "target": "age_classifyage_ageclassification",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeResult.tsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageresult",
+      "target": "age_ageresult_ageresultprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeResult.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageresult",
+      "target": "age_ageresult_ageresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeResult.tsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "age_classifyage_test",
+      "target": "age_classifyage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/classifyAge.test.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "age_classifyage_test",
+      "target": "age_classifyage_classifyage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/classifyAge.test.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "age_classifyage",
+      "target": "age_classifyage_ageclassification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/classifyAge.ts",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "age_classifyage",
+      "target": "age_classifyage_agecheck",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/classifyAge.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "age_classifyage",
+      "target": "age_classifyage_classifyage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/classifyAge.ts",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "login_credentials_test",
+      "target": "login_credentials",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/credentials.test.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "login_credentials_test",
+      "target": "login_credentials_validatecredentials",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/credentials.test.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "login_credentials",
+      "target": "login_credentials_credentialerrors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/credentials.ts",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "login_credentials",
+      "target": "login_credentials_credentialresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/credentials.ts",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "login_credentials",
+      "target": "login_credentials_validatecredentials",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/credentials.ts",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "login_loginform_test",
+      "target": "login_loginform",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/LoginForm.test.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "login_loginform_test",
+      "target": "login_loginform_loginform",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/LoginForm.test.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "login_loginform_test",
+      "target": "login_loginform_test_entercredentials",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/LoginForm.test.tsx",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "login_loginform",
+      "target": "login_credentials",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/LoginForm.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "login_loginform",
+      "target": "login_credentials_validatecredentials",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/LoginForm.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "login_loginform",
+      "target": "login_credentials",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/LoginForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "login_loginform",
+      "target": "login_credentials_credentialerrors",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/LoginForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "login_loginform",
+      "target": "login_loginform_loginformprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/LoginForm.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "login_loginform",
+      "target": "login_loginform_loginform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/login/LoginForm.tsx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/main.tsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_main",
+      "target": "src_main_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/main.tsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig",
+      "target": "frontend_tsconfig_compileroptions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_target",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_lib",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_module",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_moduleresolution",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_jsx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_strict",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_skiplibcheck",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_noemit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_forceconsistentcasinginfilenames",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_esmoduleinterop",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_resolvejsonmodule",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_isolatedmodules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_nounusedlocals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_nounusedparameters",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_tsconfig",
+      "target": "frontend_tsconfig_include",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "age_ageresult_ageresultprops",
+      "target": "age_classifyage_ageclassification",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/age/AgeResult.tsx",
+      "source_location": "L5",
+      "weight": 1.0
+    }
+  ],
+  "metadata": {
+    "built_at": "2026-10-14T15:51:19.209550+00:00",
+    "version": "graph_update-v1",
+    "codebase_root": "C:\\artifacts-v2\\T0132PcJVCRTV000414102615005825\\developer",
+    "force": true,
+    "files_scanned": 25
+  }
+}
