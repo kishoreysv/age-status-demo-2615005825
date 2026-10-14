@@ -41,6 +41,7 @@ export default defineConfig({
   ],
   webServer: {
     cwd: frontendDirectory,
+    env: { NODE_ENV: 'production' },
     command: `node node_modules/typescript/bin/tsc --noEmit && node node_modules/vite/bin/vite.js build && node node_modules/vite/bin/vite.js preview --host ${previewURL.hostname} --port ${port} --strictPort`,
     url: baseURL,
     reuseExistingServer: false,

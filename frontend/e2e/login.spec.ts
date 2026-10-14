@@ -110,8 +110,8 @@ test('fresh load presents the public fixture, warnings and a closed gate', async
   await expect(page.getByRole('heading', { name: 'Public demonstration credentials' })).toBeVisible();
   await expect(page.locator('code').filter({ hasText: 'demo@example.com' })).toHaveText('demo@example.com');
   await expect(page.locator('code').filter({ hasText: 'Demo123!' })).toHaveText('Demo123!');
-  await expect(page.getByText(/Simulated login only/)).toContainText('Do not enter a real password.');
-  await expect(page.getByText(/Simulated login only/)).toContainText('not suitable for real accounts');
+  await expect(page.locator('#login-warning')).toContainText('Do not enter a real password.');
+  await expect(page.locator('#login-warning')).toContainText('not suitable for real accounts');
   await expect(page.getByLabel('Email', { exact: true })).toHaveValue('');
   await expect(page.getByLabel('Password', { exact: true })).toHaveValue('');
   await expect(page.getByLabel('Password', { exact: true })).toHaveAttribute('type', 'password');
