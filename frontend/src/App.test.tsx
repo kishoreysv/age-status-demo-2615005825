@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event';
 import { describe, expect, it, vi } from 'vitest';
 import App from './App';
 
-/** Assert that no next-feature UI or age controls are exposed before acceptance. */
+/** Assert that age entry and classification remain inaccessible before acceptance. */
 function expectLoginGate() {
   expect(screen.getByRole('button', { name: /^Login$/ })).toBeVisible();
   expect(screen.queryByRole('heading', { name: 'Enter your age' })).not.toBeInTheDocument();
@@ -41,27 +41,52 @@ describe('App memory-only gate', () => {
     expect(screen.queryByRole('status')).not.toBeInTheDocument();
   });
 
-  it('unlocks meaningful confirmation, focuses the heading, and resets on remount', async () => {
+  it('unlocks age checking, preserves transition focus and rerender state, and resets on remount', async () => {
     const user = userEvent.setup();
     const view = render(<App />);
     await user.type(screen.getByLabelText('Email', { selector: 'input' }), '  demo@example.com  ');
     await user.type(screen.getByLabelText('Password', { selector: 'input' }), 'Demo123!');
     await user.click(screen.getByRole('button', { name: /^Login$/ }));
     expect(screen.getByRole('heading', { name: 'Enter your age' })).toHaveFocus();
-    expect(screen.getByRole('status')).toHaveTextContent(/Demo login successful/);
-    expect(screen.getByText(/age check will appear in the next feature/)).toBeVisible();
+    expect(screen.getByText(/Demo login successful/)).toBeVisible();
+    expect(screen.getByRole('status')).toBeEmptyDOMElement();
     expect(screen.queryByRole('button', { name: /^Login$/ })).not.toBeInTheDocument();
-    expect(screen.queryByRole('textbox')).not.toBeInTheDocument();
     expect(screen.queryByRole('spinbutton')).not.toBeInTheDocument();
-    expect(screen.queryByRole('button', { name: 'Check Age' })).not.toBeInTheDocument();
-    // A rerender preserves this session, whereas a new React tree must not.
+    await user.tab();
+    const age = screen.getByRole('textbox', { name: 'Age' });
+    expect(age).toHaveFocus();
+    await user.type(age, '18{Enter}');
+    expect(screen.getByRole('status')).toHaveTextContent('Submitted age: 18.');
+    expect(screen.getByRole('heading', { name: 'Major' })).toBeVisible();
     view.rerender(<App />);
-    expect(screen.getByRole('heading', { name: 'Enter your age' })).toBeVisible();
+    expect(age).toHaveValue('18');
+    expect(screen.getByRole('heading', { name: 'Major' })).toBeVisible();
+    expect(age).toHaveFocus();
+    await user.clear(age);
+    expect(screen.getByRole('status')).toBeEmptyDOMElement();
+    await user.type(age, 'abc{Enter}');
+    expect(screen.getByRole('alert')).toBeVisible();
+    await user.clear(age);
+    expect(screen.queryByRole('alert')).not.toBeInTheDocument();
+    await user.type(age, '17{Enter}');
+    expect(screen.getByRole('heading', { name: 'Minor' })).toBeVisible();
     view.unmount();
-    render(<App />);
+    const fresh = render(<App />);
     expectLoginGate();
     expect(screen.getByLabelText('Email', { selector: 'input' })).toHaveValue('');
     expect(screen.getByLabelText('Password', { selector: 'input' })).toHaveValue('');
+    await user.type(screen.getByLabelText('Email', { selector: 'input' }), 'demo@example.com');
+    await user.type(screen.getByLabelText('Password', { selector: 'input' }), 'Demo123!');
+    await user.click(screen.getByRole('button', { name: /^Login$/ }));
+    expect(screen.getByRole('textbox', { name: 'Age' })).toHaveValue('');
+    expect(screen.getByRole('status')).toBeEmptyDOMElement();
+    expect(screen.queryByRole('alert')).not.toBeInTheDocument();
+    await user.type(screen.getByRole('textbox', { name: 'Age' }), 'abc{Enter}');
+    expect(screen.getByRole('alert')).toBeVisible();
+    fresh.unmount();
+    render(<App />);
+    expectLoginGate();
+    expect(screen.queryByRole('alert')).not.toBeInTheDocument();
   });
 
   it('does not access browser storage or send submitted credentials', async () => {
@@ -80,7 +105,16 @@ describe('App memory-only gate', () => {
     await user.clear(password);
     await user.type(password, 'Demo123!');
     await user.click(screen.getByRole('button', { name: /^Login$/ }));
-    expect(screen.getByRole('status')).toBeVisible();
+    expect(screen.getByText(/Demo login successful/)).toBeVisible();
+    const age = screen.getByRole('textbox', { name: 'Age' });
+    await user.type(age, '9007199254740993{Enter}');
+    expect(screen.getByRole('alert')).toBeVisible();
+    await user.clear(age);
+    await user.type(age, ' 0018 {Enter}');
+    expect(screen.getByRole('status')).toHaveTextContent('Submitted age: 18.');
+    await user.clear(age);
+    await user.type(age, '0{Enter}');
+    expect(screen.getByRole('heading', { name: 'Minor' })).toBeVisible();
     for (const spy of [storageGet, storageSet, storageRemove, storageClear, fetchSpy, xhrSpy]) {
       expect(spy).not.toHaveBeenCalled();
     }

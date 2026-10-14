@@ -15,7 +15,7 @@ export default defineConfig({
       provider: 'v8',
       reporter: ['text', 'json-summary', 'html', 'lcov'],
       reportsDirectory: './coverage',
-      include: ['src/App.tsx', 'src/features/login/**/*.{ts,tsx}'],
+      include: ['src/App.tsx', 'src/features/login/**/*.{ts,tsx}', 'src/features/age/**/*.{ts,tsx}'],
       exclude: ['src/**/*.test.{ts,tsx}', 'src/test/**', 'src/**/*.d.ts'],
       thresholds: { lines: 95, functions: 95, statements: 95, branches: 95 },
     },

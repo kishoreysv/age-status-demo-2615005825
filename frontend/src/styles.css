@@ -120,6 +120,12 @@ button:hover { background: var(--primary-hover); border-color: var(--primary-hov
 button:active { background: var(--primary-active); border-color: var(--primary-active); }
 .privacy-note { margin-top: var(--space-5); color: var(--foreground-muted); font-size: var(--type-small); }
 .confirmation { margin-bottom: var(--space-4); font-weight: 600; }
+.age-result:not(:empty) {
+  margin-top: var(--space-5);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--border);
+}
+.age-result h2 { font-size: 1.5rem; margin-bottom: var(--space-2); }
 
 @media (max-width: 400px) {
   .brand-line { margin-bottom: var(--space-6); }

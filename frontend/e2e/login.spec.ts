@@ -163,11 +163,12 @@ test('valid UI login trims email, unlocks confirmation, and reload resets', asyn
   await page.goto('/');
   await login(page, '  demo@example.com  ');
   await expect(page.getByRole('heading', { name: 'Enter your age' })).toBeFocused();
-  await expect(page.getByRole('status')).toContainText('Demo login successful.');
-  await expect(page.getByText(/age check will appear in the next feature/)).toBeVisible();
-  await expect(page.locator('input')).toHaveCount(0);
+  await expect(page.getByText(/Demo login successful/)).toBeVisible();
+  await expect(page.getByLabel('Age', { exact: true })).toHaveValue('');
+  await expect(page.getByLabel('Age', { exact: true })).toHaveAttribute('type', 'text');
+  await expect(page.getByRole('status')).toBeEmpty();
   await expect(page.getByRole('button', { name: 'Login', exact: true })).toHaveCount(0);
-  await expect(page.getByRole('button', { name: 'Check Age' })).toHaveCount(0);
+  await expect(page.getByRole('button', { name: 'Check Age' })).toBeVisible();
   await captureState(page, testInfo, 'signed-in');
   await page.reload();
   await expectGate(page);
@@ -196,7 +197,10 @@ test('keyboard-only errors, correction and successful login preserve usable focu
   await page.keyboard.press('Tab');
   await page.keyboard.press('Enter');
   await expect(page.getByRole('heading', { name: 'Enter your age' })).toBeFocused();
-  await expect(page.getByRole('status')).toContainText('signed in');
+  await expect(page.getByText(/Demo login successful/)).toContainText('signed in');
+  await page.keyboard.press('Tab');
+  await expect(page.getByLabel('Age', { exact: true })).toBeFocused();
+  await expect(page.getByRole('button', { name: 'Check Age' })).toBeVisible();
 });
 
 test('invalid and valid interactions leave storage empty and make no input requests', async ({ page }) => {
@@ -204,7 +208,9 @@ test('invalid and valid interactions leave storage empty and make no input reque
   await login(page, 'demo@example.com', 'wrong');
   await expectGate(page);
   await login(page);
-  await expect(page.getByRole('status')).toBeVisible();
+  await expect(page.getByLabel('Age', { exact: true })).toHaveValue('');
+  await expect(page.getByRole('button', { name: 'Check Age' })).toBeVisible();
+  await expect(page.getByRole('status')).toBeEmpty();
   const stored = await page.evaluate(async () => ({
     local: localStorage.length,
     session: sessionStorage.length,
