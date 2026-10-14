@@ -8,6 +8,7 @@ __pycache__/
 .venv/
 .env
 .env.local
+.env.prod
 .env.*.local
 .DS_Store
 PLAN.md
