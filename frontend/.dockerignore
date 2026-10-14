@@ -1,0 +1,16 @@
+.git
+.gitignore
+node_modules
+dist
+build
+coverage
+test-results
+playwright-report
+preflight
+.venv
+__pycache__
+*.pyc
+.env
+.env.*
+!.env.example
+# nginx.conf must remain in the build context.

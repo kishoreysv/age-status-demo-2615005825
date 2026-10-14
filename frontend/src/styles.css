@@ -1,0 +1,131 @@
+/* Keep this focused demo warm, flat and typography-led. All fonts are local. */
+:root {
+  color-scheme: light;
+  --background: #f7f6f2;
+  --surface: #fffefa;
+  --foreground: #282c29;
+  --foreground-muted: #59615b;
+  --border: #b8bdb6;
+  --primary: #245e55;
+  --primary-hover: #194b43;
+  --primary-active: #123c35;
+  --on-primary: #ffffff;
+  --ring: #245e55;
+  --error: #9a3630;
+  --selection: #d6e7df;
+  --font-sans: 'Optima', 'Candara', 'Segoe UI', sans-serif;
+  --font-mono: 'SFMono-Regular', 'Consolas', 'Liberation Mono', monospace;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --radius: 0.375rem;
+  --type-small: 0.875rem;
+  --type-body: 1rem;
+  --type-title: 2.5rem;
+  --duration: 140ms;
+  --ease: ease-out;
+  font-family: var(--font-sans);
+  font-size: 100%;
+  line-height: 1.6;
+  color: var(--foreground);
+  background: var(--background);
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 0; }
+::selection { background: var(--selection); }
+
+.demo-shell {
+  width: min(100% - var(--space-6), 28rem);
+  margin: clamp(2rem, 7vh, 4rem) auto;
+}
+
+.brand-line {
+  margin-bottom: var(--space-7);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--border);
+  font-size: var(--type-small);
+  font-weight: 600;
+}
+
+.step-label {
+  margin: 0 0 var(--space-2);
+  color: var(--foreground-muted);
+  font-size: var(--type-small);
+  font-variant-numeric: tabular-nums;
+}
+
+h1 {
+  margin: 0 0 var(--space-3);
+  font-size: clamp(2rem, 7vw, var(--type-title));
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+h2 {
+  margin: 0 0 var(--space-3);
+  font-size: var(--type-small);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+p { margin: 0; }
+.intro { color: var(--foreground-muted); margin-bottom: var(--space-5); }
+.demo-details { margin: var(--space-5) 0 var(--space-4); }
+dl { margin: 0; }
+dl > div { display: grid; grid-template-columns: 5rem minmax(0, 1fr); gap: var(--space-2); }
+dt { color: var(--foreground-muted); font-size: var(--type-small); }
+dd { margin: 0; min-width: 0; }
+code { font-family: var(--font-mono); font-size: var(--type-small); overflow-wrap: anywhere; }
+.notice { color: var(--foreground-muted); font-size: var(--type-small); margin-bottom: var(--space-5); }
+.notice strong { font-weight: 600; color: var(--foreground); }
+form { display: grid; gap: var(--space-4); }
+.field { display: grid; gap: var(--space-2); }
+label { font-size: var(--type-small); font-weight: 600; }
+
+input, button { font: inherit; border-radius: var(--radius); }
+input {
+  width: 100%;
+  min-width: 0;
+  min-height: 2.875rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--foreground);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--type-body);
+}
+input[aria-invalid='true'] { border-color: var(--error); }
+input:focus-visible, button:focus-visible, h1:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 3px;
+}
+.field-error { color: var(--error); font-size: var(--type-small); line-height: 1.5; }
+button {
+  min-height: 2.875rem;
+  border: 1px solid var(--primary);
+  padding: var(--space-2) var(--space-4);
+  background: var(--primary);
+  color: var(--on-primary);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color var(--duration) var(--ease), border-color var(--duration) var(--ease);
+}
+button:hover { background: var(--primary-hover); border-color: var(--primary-hover); }
+button:active { background: var(--primary-active); border-color: var(--primary-active); }
+.privacy-note { margin-top: var(--space-5); color: var(--foreground-muted); font-size: var(--type-small); }
+.confirmation { margin-bottom: var(--space-4); font-weight: 600; }
+
+@media (max-width: 400px) {
+  .brand-line { margin-bottom: var(--space-6); }
+  dl > div { grid-template-columns: 4.5rem minmax(0, 1fr); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  button { transition: none; }
+}
